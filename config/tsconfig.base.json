@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "rootDir": "..",
+    "composite": true,
+
+    "inlineSourceMap": true,
+    "declarationMap": true,
+
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "target": "es2020",
+    "types": ["node"],
+
+    "resolveJsonModule": true,
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": [
+    "../.git",
+    "../.github",
+    "../build",
+    "../coverage",
+    "../dist",
+    "../node_modules"
+  ]
+}
